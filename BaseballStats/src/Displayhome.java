@@ -13,8 +13,6 @@ Last Update:
 
 
 
-
-
 import java.util.ArrayList;
 import java.util.Vector;
 
@@ -25,13 +23,16 @@ import javax.swing.JList;
 
 public class Displayhome {
 
+	//Different windows that will be used throughout the program
 	static JFrame frame;
 	static Homepage homePage;
 	static createPlayerWindow createPlayer;
-	static Vector<Player> playerList;
 	static EditPlayer editPlayer;
 	static addStats addStats;
 	static viewStats viewStats;
+	
+	//list that will store all players created
+	static Vector<Player> playerList;
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

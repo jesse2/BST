@@ -12,6 +12,7 @@ import javax.swing.JTextField;
 import javax.swing.ListSelectionModel;
 
 
+//this page takes user input and adds stats to chosen player
 public class addStats extends JPanel {
 
 	private JLabel askBats;

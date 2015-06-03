@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 
 
+//this page displays user stats for chosen player
 public class viewStats extends JPanel{
 	private JList list;
 	private JScrollPane listScroller;
@@ -21,6 +22,8 @@ public class viewStats extends JPanel{
 
 	public viewStats()
 	{
+		//This took me forever to figure so I am pretty proud of it. It takes data from player vector list and 
+		//passes it to a list which then is used by a JScrollPane to display the players
 		list=new JList(Displayhome.playerList);
 		list.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		list.setSelectedIndex(-1);

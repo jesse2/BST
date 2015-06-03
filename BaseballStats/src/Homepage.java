@@ -7,7 +7,8 @@ import javax.swing.JPanel;
 
 
 
-
+//this is the initial page that is displayed to user, there are several options to for the user to choose from
+//and this page updates view accordingly
 public class Homepage extends JPanel {
 	private JButton createPlayer;
 	private JButton editPlayer;
