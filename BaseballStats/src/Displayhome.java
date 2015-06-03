@@ -1,13 +1,14 @@
 /**********************
 Author: Jesse Castaneda
 To Do List:
-*Figure out best way to save and display names
-*Fix program layout
-*Lots more
+*complete for now
 
 What is working:
+*user can create, edit and delete players
+*user can add stats for all created players
 
 Last Update:
+*figured out how use JScrollPane to display players
 ***********************/
 
 

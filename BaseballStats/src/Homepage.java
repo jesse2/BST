@@ -7,6 +7,7 @@ import javax.swing.JPanel;
 
 
 
+
 public class Homepage extends JPanel {
 	private JButton createPlayer;
 	private JButton editPlayer;
